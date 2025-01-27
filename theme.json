@@ -1,4 +1,13 @@
 {
+	"customTemplates": [
+		{
+			"name": "wp-custom-template-full-width-page",
+			"postTypes": [
+				"page"
+			],
+			"title": "Full Width Page"
+		}
+	],
 	"settings": {
 		"appearanceTools": true,
 		"color": {
@@ -269,11 +278,18 @@
 	"templateParts": [
 		{
 			"area": "header",
-			"name": "header"
+			"name": "header",
+			"title": "Header"
 		},
 		{
 			"area": "footer",
-			"name": "footer"
+			"name": "footer",
+			"title": "Footer"
+		},
+		{
+			"area": "uncategorized",
+			"name": "sidebar",
+			"title": "Sidebar"
 		}
 	],
 	"version": 3,
